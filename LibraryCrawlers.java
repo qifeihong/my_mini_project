@@ -77,7 +77,7 @@ public class LibraryCrawlers {
 
         String url = "http://202.96.31.78/xlsworkbench/publish";
         String partParams = "keyWord=+&orderProperty=PU_CHA_BIAN_HAO&orderWay=asc&";
-
+        //是否多线程处理
         boolean ifMultiThreadHandle = false;
         if (ifMultiThreadHandle) {
             multiThreadHandle(url, partParams);
